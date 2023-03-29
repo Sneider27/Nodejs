@@ -17,7 +17,7 @@ app.use(express.json());
 app.use('/api', userRoutes);
 //futbolistas
 
- app.use('/api', futbolistasRoutes);
+app.use('/api', futbolistasRoutes);
 app.use('/api', equiposRoutes);
 
 //ruta
